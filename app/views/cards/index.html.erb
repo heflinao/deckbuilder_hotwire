@@ -1,0 +1,36 @@
+<%= form_with url: '/', method: :get do |f| %>
+  <%= f.label :query, "Search:" %>
+  <%= f.text_field :query %>
+  <%= f.submit "Search" %>
+<% end %>
+
+<% @cards && @cards.each do |card| %>
+  <div>
+    <h3>
+      <%= card[:name] %>
+    </h3>
+    <p>
+      Mana Cost: <%= card[:mana_cost] %>
+    </p>
+    <p>
+      Colors: <%= card[:colors] %>
+    </p>
+    <p>
+      Power: <%= card[:power] %>
+    </p>
+    <p>
+      Toughness: <%= card[:toughness] %>
+    </p>
+    <p>
+      Type: <%= card[:type_line] %>
+    </p>
+    <p>
+      Text: <%= card[:oracle_text] %>
+    </p>
+    <% if card[:image_uris] && card[:image_uris].any? %>
+      <% card[:image_uris].each do |uri| %>
+        <%= image_tag uri %>
+      <% end %>
+    <% end %>
+  </div>
+<% end %>
