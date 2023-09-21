@@ -2,7 +2,7 @@
  "total_cards":549,
  "has_more":true,
  "next_page":
-  "https://api.scryfall.com/cards/search?format=json&include_extras=false&include_multilingual=false&include_variations=false&order=name&page=2&q=c%3Awhite+mv%3D1&unique=cards",
+  "search",
  "data":
   [{"object":"card",
     "id":"023b5e6f-10de-422d-8431-11f1fdeca246",
@@ -13,18 +13,18 @@
     "name":"Abu Ja'far",
     "lang":"en",
     "released_at":"1995-07-01",
-    "uri":"https://api.scryfall.com/cards/023b5e6f-10de-422d-8431-11f1fdeca246",
-    "scryfall_uri":"https://scryfall.com/card/chr/1/abu-jafar?utm_source=api",
+    "uri":"uri",
+    "scryfall_uri":"scryfall_uri",
     "layout":"normal",
     "highres_image":true,
     "image_status":"highres_scan",
     "image_uris":
-     {"small":"https://cards.scryfall.io/small/front/0/2/023b5e6f-10de-422d-8431-11f1fdeca246.jpg?1562895407",
-      "normal":"https://cards.scryfall.io/normal/front/0/2/023b5e6f-10de-422d-8431-11f1fdeca246.jpg?1562895407",
-      "large":"https://cards.scryfall.io/large/front/0/2/023b5e6f-10de-422d-8431-11f1fdeca246.jpg?1562895407",
-      "png":"https://cards.scryfall.io/png/front/0/2/023b5e6f-10de-422d-8431-11f1fdeca246.png?1562895407",
-      "art_crop":"https://cards.scryfall.io/art_crop/front/0/2/023b5e6f-10de-422d-8431-11f1fdeca246.jpg?1562895407",
-      "border_crop":"https://cards.scryfall.io/border_crop/front/0/2/023b5e6f-10de-422d-8431-11f1fdeca246.jpg?1562895407"},
+     {"small":"https://foobar.com/small",
+      "normal":"https://foobar.com/normal",
+      "large":"https://foobar.com/large",
+      "png":"png",
+      "art_crop":"art_crop",
+      "border_crop":"border_crop"},
     "mana_cost":"{W}",
     "cmc":1.0,
     "type_line":"Creature xE2x80x94 Human",
@@ -69,12 +69,12 @@
     "set":"chr",
     "set_name":"Chronicles",
     "set_type":"masters",
-    "set_uri":"https://api.scryfall.com/sets/985eab7d-655a-4cb0-ba74-d48c8dcfb3d4",
-    "set_search_uri":"https://api.scryfall.com/cards/search?order=set&q=e%3Achr&unique=prints",
-    "scryfall_set_uri":"https://scryfall.com/sets/chr?utm_source=api",
-    "rulings_uri":"https://api.scryfall.com/cards/023b5e6f-10de-422d-8431-11f1fdeca246/rulings",
+    "set_uri":"set_uri",
+    "set_search_uri":"set_search_uri",
+    "scryfall_set_uri":"scryfall_set_uri",
+    "rulings_uri":"rulings_uri",
     "prints_search_uri":
-     "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aa2404d88-0621-49ae-9908-052c23a96ac6&unique=prints",
+     "prints_search_uri",
     "collector_number":"1",
     "digital":false,
     "rarity":"uncommon",
@@ -91,15 +91,15 @@
     "edhrec_rank":17751,
     "prices":{"usd":"0.21", "usd_foil":null, "usd_etched":null, "eur":"0.10", "eur_foil":null, "tix":null},
     "related_uris":
-     {"gatherer":"https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=2838",
+     {"gatherer":"gatherer",
       "tcgplayer_infinite_articles":
-       "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Abu+Ja%27far&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+       "articles",
       "tcgplayer_infinite_decks":
-       "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Abu+Ja%27far&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "edhrec":"https://edhrec.com/route/?cc=Abu+Ja%27far"},
+       "decks",
+      "edhrec":"edhrec"},
     "purchase_uris":
-     {"tcgplayer":"https://www.tcgplayer.com/product/3352?page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+     {"tcgplayer":"tcgplayer",
       "cardmarket":
-       "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Abu+Ja%27far&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+       "market",
       "cardhoarder":
-       "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Abu+Ja%27far&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"}}]}
+       "hoarder"}}]}
